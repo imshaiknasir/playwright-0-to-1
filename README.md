@@ -44,7 +44,8 @@ The development environment is defined by the `.devcontainer/devcontainer.json` 
       ]
     }
   }
-}```
+}
+```
 
 ### Customization
 
