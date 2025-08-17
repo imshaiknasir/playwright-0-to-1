@@ -1,0 +1,13 @@
+{
+  "name": "playwright-0-to-1",
+  "version": "1.0.0",
+  "description": "Get started with playwright development in one click",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "author": "Nasir",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "latest"
+  }
+}

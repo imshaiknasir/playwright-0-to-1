@@ -1,0 +1,15 @@
+{
+  "name": "Playwright 0 to 1 Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {},
+  "postCreateCommand": "npm install --no-audit --no-fund --prefer-offline && npx playwright install chromium --with-deps",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "ms-playwright.playwright",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
