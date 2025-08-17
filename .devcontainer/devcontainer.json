@@ -1,8 +1,12 @@
 {
-  "name": "Playwright 0 to 1 Dev Container",
+  "name": "Playwright Dev Container",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": {},
-  "postCreateCommand": "npm install --no-audit --no-fund --prefer-offline && npx playwright install chromium --with-deps",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "postCreateCommand": "npm install && npx playwright install --with-deps",
   "customizations": {
     "vscode": {
       "extensions": [
